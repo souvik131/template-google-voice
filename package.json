@@ -1,0 +1,31 @@
+{
+  "name": "voice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+		"prometheus-api-metrics":"^2.2.7",
+    "prom-client":"^12.0.0",
+    "@google-cloud/speech": "^2.1.1",
+    "@google-cloud/text-to-speech": "^0.3.0",
+    "aws-sdk": "^2.389.0",
+    "bcrypt": "^3.0.3",
+    "binaryjs": "^0.2.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "g-crypt": "^1.1.0",
+    "querystring": "^0.2.0",
+    "quick-encrypt": "^1.0.8",
+    "request": "^2.88.0",
+    "salted-md5": "^3.0.1",
+    "sha256": "^0.2.0",
+    "socket.io": "^2.2.0",
+    "wav": "^1.0.2"
+  }
+}
